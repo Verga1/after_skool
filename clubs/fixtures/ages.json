@@ -1,0 +1,23 @@
+[
+    {
+        "pk": 1,
+        "model": "clubs.age",
+        "fields": {
+            "name": "4-6yrs"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "clubs.age",
+        "fields": {
+            "name": "6-8yrs"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "clubs.age",
+        "fields": {
+            "name": "8-12yrs"
+        }
+    }
+]

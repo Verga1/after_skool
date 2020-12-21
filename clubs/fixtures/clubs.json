@@ -1,0 +1,542 @@
+[
+    {
+        "pk": "1",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00001",
+        "age": "1",
+        "name": "GAA Junior",
+        "category": "1",
+        "description": "GAA for Jr/Snr Infants",
+        "teacher": "Dean",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "gaa_jnr.jpg"
+        }
+    },
+    {
+        "pk": "2",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00002",
+        "age": "2",
+        "name": "GAA Intermediate",
+        "category": "1",
+        "description": "GAA for 1st - 2nd",
+        "teacher": "Dean",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "gaa_int.jpg"
+        }
+    },
+    {
+        "pk": "3",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00003",
+        "age": "3",
+        "name": "GAA Senior",
+        "category": "1",
+        "description": "GAA for 3rd - 6th",
+        "teacher": "Dean",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "gaa_snr.jpg"
+        }
+    },
+    {
+        "pk": "4",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00004",
+        "age": "1",
+        "name": "Soccer Junior",
+        "category": "2",
+        "description": "Soccer for Jr/Snr Infants",
+        "teacher": "Lionel",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "soc_jnr.jpg"
+        }
+    },
+    {
+        "pk": "5",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00005",
+        "age": "2",
+        "name": "Soccer Intermediate",
+        "category": "2",
+        "description": "Soccer for 1st - 2nd",
+        "teacher": "Lionel",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "soc_int.jpg"
+        }
+    },
+    {
+        "pk": "6",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00006",
+        "age": "3",
+        "name": "Soccer Senior",
+        "category": "2",
+        "description": "Soccer for 3rd - 6th",
+        "teacher": "Lionel",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "soc_snr.jpg"
+        }
+    },
+    {
+        "pk": "7",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00007",
+        "age": "1",
+        "name": "Rugby Junior",
+        "category": "3",
+        "description": "Rugby for Jr/Snr Infants",
+        "teacher": "Johnny",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "rub_jnr.jpg"
+        }
+    },
+    {
+        "pk": "8",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00008",
+        "age": "2",
+        "name": "Rugby Intermediate",
+        "category": "3",
+        "description": "Rugby for 1st - 2nd",
+        "teacher": "Johnny",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "rub_int.jpg"
+        }
+    },
+    {
+        "pk": "9",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00009",
+        "age": "3",
+        "name": "Rugby Senior",
+        "category": "3",
+        "description": "Rugby for 3rd - 6th",
+        "teacher": "Johnny",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "rub_snr.jpg"
+        }
+    },
+    {
+        "pk": "10",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00010",
+        "age": "1",
+        "name": "Basketball Junior",
+        "category": "4",
+        "description": "Basketball for Jr/Snr Infants",
+        "teacher": "Michael",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "bas_jnr.jpg"
+        }
+    },
+    {
+        "pk": "11",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00011",
+        "age": "2",
+        "name": "Basketball Intermediate",
+        "category": "4",
+        "description": "Basketball for 1st - 2nd",
+        "teacher": "Michael",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "bas_int.jpg"
+        }
+    },
+    {
+        "pk": "12",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00012",
+        "age": "3",
+        "name": "Basketball Senior",
+        "category": "4",
+        "description": "Basketball for 3rd - 6th",
+        "teacher": "Michael",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "bas_snr.jpg"
+        }
+    },
+    {
+        "pk": "13",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00013",
+        "age": "1",
+        "name": "Art Junior",
+        "category": "5",
+        "description": "Art for Jr/Snr Infants",
+        "teacher": "Pablo",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "art_jnr.jpg"
+        }
+    },
+    {
+        "pk": "14",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00014",
+        "age": "2",
+        "name": "Art Intermediate",
+        "category": "5",
+        "description": "Art for 1st - 2nd",
+        "teacher": "Pablo",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "art_int.jpg"
+        }
+    },
+    {
+        "pk": "15",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00015",
+        "age": "3",
+        "name": "Art Senior",
+        "category": "5",
+        "description": "Art for 3rd - 6th",
+        "teacher": "Pablo",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "art_snr.jpg"
+        }
+    },
+    {
+        "pk": "16",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00016",
+        "age": "1",
+        "name": "Dancing Junior",
+        "category": "6",
+        "description": "Dancing for Jr/Snr Infants",
+        "teacher": "Justin",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "dan_jnr.jpg"
+        }
+    },
+    {
+        "pk": "17",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00017",
+        "age": "2",
+        "name": "Dancing Intermediate",
+        "category": "6",
+        "description": "Dancing for 1st - 2nd",
+        "teacher": "Justin",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "dan_int.jpg"
+        }
+    },
+    {
+        "pk": "18",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00018",
+        "age": "3",
+        "name": "Dancing Senior",
+        "category": "6",
+        "description": "Dancing for 3rd - 6th",
+        "teacher": "Justin",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "dan_snr.jpg"
+        }
+    },
+    {
+        "pk": "19",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00019",
+        "age": "1",
+        "name": "Acting Junior",
+        "category": "7",
+        "description": "Acting for Jr/Snr Infants",
+        "teacher": "Merryl",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "act_jnr.jpg"
+        }
+    },
+    {
+        "pk": "20",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00020",
+        "age": "2",
+        "name": "Acting Intermediate",
+        "category": "7",
+        "description": "Acting for 1st - 2nd",
+        "teacher": "Merryl",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "act_int.jpg"
+        }
+    },
+    {
+        "pk": "21",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00021",
+        "age": "3",
+        "name": "Acting Senior",
+        "category": "7",
+        "description": "Acting for 3rd - 6th",
+        "teacher": "Merryl",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "act_snr.jpg"
+        }
+    },
+    {
+        "pk": "22",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00022",
+        "age": "1",
+        "name": "Music Junior",
+        "category": "8",
+        "description": "Music for Jr/Snr Infants",
+        "teacher": "Christina",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "mus_jnr.jpg"
+        }
+    },
+    {
+        "pk": "23",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00023",
+        "age": "2",
+        "name": "Music Intermediate",
+        "category": "8",
+        "description": "Music for 1st - 2nd",
+        "teacher": "Christina",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "mus_int.jpg"
+        }
+    },
+    {
+        "pk": "24",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00024",
+        "age": "3",
+        "name": "Music Senior",
+        "category": "8",
+        "description": "Music for 3rd - 6th",
+        "teacher": "Christina",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "mus_snr.jpg"
+        }
+    },
+    {
+        "pk": "25",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00025",
+        "age": "1",
+        "name": "Chess Junior",
+        "category": "9",
+        "description": "Chess for Jr/Snr Infants",
+        "teacher": "Garry",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "che_jnr.jpg"
+        }
+    },
+    {
+        "pk": "26",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00026",
+        "age": "2",
+        "name": "Chess Intermediate",
+        "category": "9",
+        "description": "Chess for 1st - 2nd",
+        "teacher": "Garry",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "che_int.jpg"
+        }
+    },
+    {
+        "pk": "27",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00027",
+        "age": "3",
+        "name": "Chess Senior",
+        "category": "9",
+        "description": "Chess for 3rd - 6th",
+        "teacher": "Garry",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "che_snr.jpg"
+        }
+    },
+    {
+        "pk": "28",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00028",
+        "age": "1",
+        "name": "Science Junior",
+        "category": "10",
+        "description": "Science for Jr/Snr Infants",
+        "teacher": "Albert",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "sci_jnr.jpg"
+        }
+    },
+    {
+        "pk": "29",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00029",
+        "age": "2",
+        "name": "Science Intermediate",
+        "category": "10",
+        "description": "Science for 1st - 2nd",
+        "teacher": "Albert",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "sci_int.jpg"
+        }
+    },
+    {
+        "pk": "30",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00030",
+        "age": "3",
+        "name": "Science Senior",
+        "category": "10",
+        "description": "Science for 3rd - 6th",
+        "teacher": "Albert",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "sci_snr.jpg"
+        }
+    },
+    {
+        "pk": "31",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00031",
+        "age": "1",
+        "name": "Coding Junior",
+        "category": "11",
+        "description": "Coding for Jr/Snr Infants",
+        "teacher": "Mark",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "cod_jnr.jpg"
+        }
+    },
+    {
+        "pk": "32",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00032",
+        "age": "2",
+        "name": "Coding Intermediate",
+        "category": "11",
+        "description": "Coding for 1st - 2nd",
+        "teacher": "Mark",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "cod_int.jpg"
+        }
+    },
+    {
+        "pk": "33",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00033",
+        "age": "3",
+        "name": "Coding Senior",
+        "category": "11",
+        "description": "Coding for 3rd - 6th",
+        "teacher": "Mark",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "cod_snr.jpg"
+        }
+    },
+    {
+        "pk": "34",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00034",
+        "age": "1",
+        "name": "Homework Junior",
+        "category": "12",
+        "description": "Homework for Jr/Snr Infants",
+        "teacher": "Cecil",
+        "price": "80.00",
+        "term": "10 weeks",
+        "image": "hom_jnr.jpg"
+        }
+    },
+    {
+        "pk": "35",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00035",
+        "age": "2",
+        "name": "Homework Intermediate",
+        "category": "12",
+        "description": "Homework for 1st - 2nd",
+        "teacher": "Cecil",
+        "price": "100.00",
+        "term": "10 weeks",
+        "image": "hom_int.jpg"
+        }
+    },
+    {
+        "pk": "36",
+        "model": "clubs.club",
+        "fields": {
+        "sku": "as00036",
+        "age": "3",
+        "name": "Homework Senior",
+        "category": "12",
+        "description": "Homework for 3rd - 6th",
+        "teacher": "Cecil",
+        "price": "120.00",
+        "term": "10 weeks",
+        "image": "hom_snr.jpg"
+        }
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "pk": 1,
+        "model": "clubs.category",
+        "fields": {
+            "name": "gaa",
+            "friendly_name": "GAA"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "clubs.category",
+        "fields": {
+            "name": "soccer",
+            "friendly_name": "Soccer"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "clubs.category",
+        "fields": {
+            "name": "rugby",
+            "friendly_name": "Rugby"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "clubs.category",
+        "fields": {
+            "name": "basketball",
+            "friendly_name": "Basketball"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "clubs.category",
+        "fields": {
+            "name": "art",
+            "friendly_name": "Art"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "clubs.category",
+        "fields": {
+            "name": "dancing",
+            "friendly_name": "Dancing"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "clubs.category",
+        "fields": {
+            "name": "acting",
+            "friendly_name": "Acting"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "clubs.category",
+        "fields": {
+            "name": "music",
+            "friendly_name": "Music"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "clubs.category",
+        "fields": {
+            "name": "chess",
+            "friendly_name": "Chess"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "clubs.category",
+        "fields": {
+            "name": "science",
+            "friendly_name": "Science"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "clubs.category",
+        "fields": {
+            "name": "coding",
+            "friendly_name": "Coding"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "clubs.category",
+        "fields": {
+            "name": "homework",
+            "friendly_name": "Homework"
+        }
+    }
+]
