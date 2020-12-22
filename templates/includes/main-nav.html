@@ -5,11 +5,11 @@
                 All Clubs
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-clubs-link">
-                <a href="" class="dropdown-item">By Age</a>
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item">By Club</a>
-                <a href="" class="dropdown-item">By Category</a>
-                <a href="{% url 'clubs' %}" class="dropdown-item">All Clubs</a>
+                <a href="{% url 'clubs'%}?sort=age" class="dropdown-item">By Age</a>
+                <a href="{% url 'clubs'%}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'clubs'%}?sort=teacher&direction=asc" class="dropdown-item">By Teacher</a>
+                <a href="{% url 'clubs'%}?sort=category&direction=asc" class="dropdown-item">By Category</a>
+                <a href="{% url 'clubs'%}" class="dropdown-item">All Clubs</a>
             </div>
         </li>
 
@@ -18,11 +18,11 @@
                 Sports
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="sports-link">
-                <a href="" class="dropdown-item">GAA</a>
-                <a href="" class="dropdown-item">Soccer</a>
-                <a href="" class="dropdown-item">Rugby</a>
-                <a href="" class="dropdown-item">Basketball</a>
-                <a href="" class="dropdown-item">All Sports</a>
+                <a href="{% url 'clubs'%}?category=gaa" class="dropdown-item">GAA</a>
+                <a href="{% url 'clubs'%}?category=soccer" class="dropdown-item">Soccer</a>
+                <a href="{% url 'clubs'%}?category=rugby" class="dropdown-item">Rugby</a>
+                <a href="{% url 'clubs'%}?category=basketball" class="dropdown-item">Basketball</a>
+                <a href="{% url 'clubs'%}?category=gaa,soccer,rugby,basketball" class="dropdown-item">All Sports</a>
             </div>
         </li>
 
@@ -31,11 +31,11 @@
                 Arts
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="arts-link">
-                <a href="" class="dropdown-item">Art</a>
-                <a href="" class="dropdown-item">Dancing</a>
-                <a href="" class="dropdown-item">Acting</a>
-                <a href="" class="dropdown-item">Musical Theatre</a>
-                <a href="" class="dropdown-item">All Arts</a>
+                <a href="{% url 'clubs'%}?category=art" class="dropdown-item">Art</a>
+                <a href="{% url 'clubs'%}?category=dancing" class="dropdown-item">Dancing</a>
+                <a href="{% url 'clubs'%}?category=acting" class="dropdown-item">Acting</a>
+                <a href="{% url 'clubs'%}?category=music" class="dropdown-item">Music</a>
+                <a href="{% url 'clubs'%}?category=art,dancing,acting,music" class="dropdown-item">All Arts</a>
             </div>
         </li>
 
@@ -44,11 +44,11 @@
                 Academic
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="academic-link">
-                <a href="" class="dropdown-item">Chess</a>
-                <a href="" class="dropdown-item">Science</a>
-                <a href="" class="dropdown-item">Coding</a>
-                <a href="" class="dropdown-item">Homework</a>
-                <a href="" class="dropdown-item">All Academic</a>
+                <a href="{% url 'clubs'%}?category=chess" class="dropdown-item">Chess</a>
+                <a href="{% url 'clubs'%}?category=science" class="dropdown-item">Science</a>
+                <a href="{% url 'clubs'%}?category=coding" class="dropdown-item">Coding</a>
+                <a href="{% url 'clubs'%}?category=homework" class="dropdown-item">Homework</a>
+                <a href="{% url 'clubs'%}?category=chess,science,coding,homework" class="dropdown-item">All Academic</a>
             </div>
         </li>
 
