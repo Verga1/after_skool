@@ -21,6 +21,8 @@ def all_clubs(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 clubs = clubs.annotate(lower_name=Lower('name'))
+            if sortkey == 'category':
+                sortkey = 'category__name'
 
             if 'direction' in request.GET:
                 direction = request.GET['direction']
