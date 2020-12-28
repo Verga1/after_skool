@@ -20,7 +20,7 @@ class Order(models.Model):
     street_address2 = models.CharField(max_length=80, null=True, blank=True)
     county = models.CharField(max_length=80, null=True, blank=True)
     date = models.DateTimeField(auto_now_add=True)
-    delivery_cost = models.DecimalField(max_digits=6, decimal_places=2, null=False, default=0)
+    discount = models.DecimalField(max_digits=6, decimal_places=2, null=False, default=0)
     order_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
     grand_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
 
@@ -38,7 +38,7 @@ class Order(models.Model):
         """
         self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum']
         if self.order_total >= settings.DISCOUNT_THRESHOLD:
-            self.discount = self.order_total * self.Decimal(settings.STANDARD_DISCOUNT_PERCENTAGE / 100)
+            self.discount = self.order_total * Decimal(settings.STANDARD_DISCOUNT_PERCENTAGE / 100)
             self.discount_delta = 0
         else:
             self.discount = 0
