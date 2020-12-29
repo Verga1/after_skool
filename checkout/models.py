@@ -5,6 +5,7 @@ from django.db.models import Sum
 from django.conf import settings
 
 from clubs.models import Club
+from bag import contexts
 
 # Create your models here.
 
@@ -36,13 +37,12 @@ class Order(models.Model):
         Update grand total each time a line item is added,
         accounting for discount.
         """
-        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum']
+        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
         if self.order_total >= settings.DISCOUNT_THRESHOLD:
-            self.discount = self.order_total * Decimal(settings.STANDARD_DISCOUNT_PERCENTAGE / 100)
+            self.discount = self.order_total * int(settings.STANDARD_DISCOUNT_PERCENTAGE / 100)
             self.discount_delta = 0
         else:
             self.discount = 0
-            self.discount_delta = self.club_count + 1
         self.grand_total = self.order_total - self.discount
         self.save()
 

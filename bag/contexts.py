@@ -30,6 +30,8 @@ def bag_contents(request):
 
     grand_total = total - discount
 
+    request.session['club_count'] = club_count
+
     context = {
         'bag_items': bag_items,
         'total': total,
