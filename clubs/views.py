@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
@@ -74,8 +75,13 @@ def club_detail(request, club_id):
     return render(request, 'clubs/club_detail.html', context)
 
 
+@login_required
 def add_club(request):
     """ Add a club to the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only owners can do that.')
+        return redirect(reverse('home'))
+
     if request.method == 'POST':
         form = ClubForm(request.POST, request.FILES)
         if form.is_valid():
@@ -95,8 +101,13 @@ def add_club(request):
     return render(request, template, context)
 
 
+@login_required
 def edit_club(request, club_id):
     """ Edit a club in the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only owners can do that.')
+        return redirect(reverse('home'))
+
     club = get_object_or_404(Club, pk=club_id)
     if request.method == 'POST':
         form = ClubForm(request.POST, request.FILES, instance=club)
@@ -119,8 +130,13 @@ def edit_club(request, club_id):
     return render(request, template, context)
 
 
+@login_required
 def delete_club(request, club_id):
     """ Delete a club from the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only owners can do that.')
+        return redirect(reverse('home'))
+
     club = get_object_or_404(Club, pk=club_id)
     club.delete()
     messages.success(request, 'Club deleted!')
