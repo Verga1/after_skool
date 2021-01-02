@@ -47,7 +47,13 @@
                     {% else %}
                         <small class="text-muted">No Ratings Yet</small>
                     {% endif %}
-
+                    {% if request.user.is_superuser %}
+                        <small class="ml-3">
+                            <a href="{% url 'edit_club' club.id %}">Edit</a> | 
+                            <a class="text-danger" href="{% url 'delete_club' club.id %}">Delete</a>
+                        </small>
+                    {% endif %}
+                    
                     <form class="form" action="{% url 'add_to_bag' club.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">

@@ -79,9 +79,9 @@ def add_club(request):
     if request.method == 'POST':
         form = ClubForm(request.POST, request.FILES)
         if form.is_valid():
-            form.save()
+            club = form.save()
             messages.success(request, 'Successfully added club!')
-            return redirect(reverse('add_club'))
+            return redirect(reverse('club_detail', args=[club.id]))
         else:
             messages.error(request, 'Failed to add club. Please ensure the form is valid.')
     else:
@@ -117,4 +117,11 @@ def edit_club(request, club_id):
     }
 
     return render(request, template, context)
-    
+
+
+def delete_club(request, club_id):
+    """ Delete a club from the store """
+    club = get_object_or_404(Club, pk=club_id)
+    club.delete()
+    messages.success(request, 'Club deleted!')
+    return redirect(reverse('clubs'))
