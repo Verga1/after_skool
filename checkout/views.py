@@ -55,7 +55,6 @@ def checkout(request):
             order = order_form.save(commit=False)
             pid = request.POST.get('client_secret').split('_secret')[0]
             if request.POST.get('discount'):
-                print(f"DISCOUNT: {request.POST.get('discount')}")
                 order.discount = float(request.POST.get('discount'))
             order.stripe_pid = pid
             order.original_bag = json.dumps(bag)
