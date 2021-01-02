@@ -93,3 +93,28 @@ def add_club(request):
     }
 
     return render(request, template, context)
+
+
+def edit_club(request, club_id):
+    """ Edit a club in the store """
+    club = get_object_or_404(Club, pk=club_id)
+    if request.method == 'POST':
+        form = ClubForm(request.POST, request.FILES, instance=club)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated club!')
+            return redirect(reverse('club_detail', args=[club.id]))
+        else:
+            messages.error(request, 'Failed to update club. Please ensure the form is valid.')
+    else:
+        form = ClubForm(instance=club)
+        messages.info(request, f'You are editing {club.name}')
+
+    template = 'clubs/edit_club.html'
+    context = {
+        'form': form,
+        'club': club,
+    }
+
+    return render(request, template, context)
+    
