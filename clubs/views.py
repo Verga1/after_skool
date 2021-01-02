@@ -76,7 +76,17 @@ def club_detail(request, club_id):
 
 def add_club(request):
     """ Add a club to the store """
-    form = ClubForm()
+    if request.method == 'POST':
+        form = ClubForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully added club!')
+            return redirect(reverse('add_club'))
+        else:
+            messages.error(request, 'Failed to add club. Please ensure the form is valid.')
+    else:
+        form = ClubForm()
+
     template = 'clubs/add_club.html'
     context = {
         'form': form,
