@@ -33,7 +33,7 @@
                     <p>{{ club.description }}</p>
                     <hr>
                     <p>Teacher: {{ club.teacher }}</p>
-                    <p class="font-weight-bold">£{{ club.price }} | {{ club.term }}</p>
+                    <p class="font-weight-bold">€{{ club.price }} | {{ club.term }}</p>
                     {% if club.category %}
                     <p class="small mt-1 mb-0">
                         <a class="text-muted" href="{% url 'clubs' %}?category={{ club.category.name }}">
