@@ -78,7 +78,7 @@ There are 6 main pages including the home page and a login/registration page. Ot
 #### The home page
 The home page gives a quick glance at the brand of the site and a link to the booking page.  
 
-#### Booking page
+#### Booking/Club page
 
 This page provides a list of clubs which users can purchase. There are filters and a sort functionality to aid in the search. Once they click into a club, it takes them to a page which provides a bit more information about the club. From here, they can add this to the shopping bag. 
 
@@ -105,8 +105,13 @@ For users logged in, they can click on the logout button which takes them to thi
 
 #### Management section
 
-This section is available only for admin. This is a dropdown button in the navbar, when clicked on provides with three options 
-1. Add a club - To add a new club to the Shop section
+This section is available only for admin. This is a dropdown button in the navbar, when clicked it takes you to: 
+1. Add a club page - To add a new club to the Shop section
+2. All clubs can be edited or deleted form the booking/club page
+
+### Other features
+Scroll to top button added which is a convenience especially when viewing fom tablet or mobile
+Message success/alert/error/warning toasts depending on the function. These can be closed or will be closed automatically after 3 secs
 
 ### Surface
 
@@ -124,15 +129,26 @@ You can see the wireframes saved as pdf below:
 
 [Wireframe for desktop](/assets/wireframes/desktop_wireframe.pdf)<br>
 
-### Existing Features
-1. Responsive layout: Site is accessable and scalable across devices
-2. Users can book club from the shop. Filter added in this page to filter the clubs. 
-3. Shopping cart updates total automatically based on booking of clubs. Shopping cart is added only in the Shop and shopping bag pages as they are only part of the site and not the main focus.
-4. Option to delete club from shopping bag
-5. Portfolio can be viewed from their pages
-6. Registration/login: Users can register or login with a username and password. 
-7. Billing details can be updated from the profile page for logged in users
-8. CRUD: Superuser can add clubs and portfolio. Superuser have the functionality to edit or delete any of them as well. 
-9. Scroll to top button added which is a convenience especially when viewing fom tablet or mobile
-10. Message success/alert/error/warning toasts depending on the function. These can be closed or will be closed automatically after 3 secs
 
+## Technologies Used
+
+- HTML <br>
+- CSS <br>
+- Google fonts <br>
+- Fontawesome <br>
+- Bootstrap <br>
+- Javascript/jQuery used as part of Bootstrap and also for few other functions <br>
+- Python 3 <br>
+- Django<br>
+- Stripe: The project uses Stripe's test payment functionality.<br>
+- SQLite: The project uses SQLite as the relational database to hold the backend information for the varions models used, when running locally<br>
+- PostgreSQL: The project uses Heroku's PostgreSQL relational database to hold the backend information for the various models used, when deployed remotely<br>
+- Heroku: The cloud based platform is used for deployment of the site. 
+- Gitpod: Gitpod IDE is used to write the code and push to Github
+- Github: Used as the remote reository to push and store the commited changes
+- Git version control: Used to track changes and refer when needed
+
+#### Validations
+
+* Validated html and css with W3C validator. Passed without any errors 
+* Javascript was checked with JSlint and Python with pylint. Found no major errors, fixed most formatting errors except for those lines exceeding by a very few characters and messages. 

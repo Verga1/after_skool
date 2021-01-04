@@ -9,6 +9,7 @@ from .forms import ClubForm
 
 # Create your views here.
 
+
 def all_clubs(request):
     """ A view to show all clubs, including sorting and search queries """
 
@@ -39,7 +40,6 @@ def all_clubs(request):
             clubs = clubs.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
-
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -58,7 +58,7 @@ def all_clubs(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
-    }    
+    }
 
     return render(request, 'clubs/clubs.html', context)
 
@@ -70,7 +70,7 @@ def club_detail(request, club_id):
 
     context = {
         'club': club,
-    }    
+    }
 
     return render(request, 'clubs/club_detail.html', context)
 
@@ -89,7 +89,8 @@ def add_club(request):
             messages.success(request, 'Successfully added club!')
             return redirect(reverse('club_detail', args=[club.id]))
         else:
-            messages.error(request, 'Failed to add club. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to add club. Please ensure form is valid')
     else:
         form = ClubForm()
 
@@ -116,7 +117,8 @@ def edit_club(request, club_id):
             messages.success(request, 'Successfully updated club!')
             return redirect(reverse('club_detail', args=[club.id]))
         else:
-            messages.error(request, 'Failed to update club. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to update club. Ensure form is valid')
     else:
         form = ClubForm(instance=club)
         messages.info(request, f'You are editing {club.name}')

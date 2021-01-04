@@ -3,6 +3,7 @@ from .models import Club, Category, Age
 
 # Register your models here.
 
+
 class ClubAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
