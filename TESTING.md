@@ -100,23 +100,23 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 1. Open Browser
 2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
 3. Click on Book Now
-5. Choose any club by clicking the image
-6. Add Item to bag
-7. Side Drawer bag should open
-8. Continue shopping by clicking on the main screen or on to the Close button at the top 
-9. Bag should Close
-10. Choose another club
-11. Add Item to bag
-12. Side Drawer bag should and last added item should be on top
+4. Choose any club by clicking the image
+5. Add Item to bag
+6. Side Drawer bag should open
+7. Continue shopping by clicking on the main screen or on to the Close button at the top 
+8. Bag should Close
+9. Choose another club
+10. Add Item to bag
+11. Side Drawer bag should and last added item should be on top
 
 ### Checkout from Side Drawer bag :white_check_mark:
 1. Open Browser
 2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
 3. Click on Book Now
-5. Choose any club by clicking the image
-6. Add Item to bag
-7. Side Drawer bag should open
-8. Press Checkout Button
+4. Choose any club by clicking the image
+5. Add Item to bag
+6. Side Drawer bag should open
+7. Press Checkout Button
 8. Press Checkout Button on main bag page
 9. Checkout Page should open
 
@@ -124,12 +124,12 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 1. Open Browser
 2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
 3. Click on Book Now
-5. Choose any club by clicking the image
-6. Add Item to bag
-7. Side Drawer bag should open
-8. Click checkout button
-9. Should be redirected to Fullpage bag
-10. Press "+" Button
+4. Choose any club by clicking the image
+5. Add Item to bag
+6. Side Drawer bag should open
+7. Click checkout button
+8. Should be redirected to Fullpage bag
+9. Press "+" Button
 10. Click update
 11. Side drawer bag will open and quantity increased by one
 
@@ -137,12 +137,12 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 1. Open Browser
 2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
 3. Click on Book Now
-5. Choose any club by clicking the image
-6. Add Item to bag
-7. Side Drawer bag should open
-8. Click checkout button
-9. Should be redirect to Fullpage bag
-10. Press "-" Button
+4. Choose any club by clicking the image
+5. Add Item to bag
+6. Side Drawer bag should open
+7. Click checkout button
+8. Should be redirect to Fullpage bag
+9. Press "-" Button
 10. Click update
 11. Side drawer bag will open and quantity decreased by one
 
@@ -150,13 +150,13 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 1. Open Browser
 2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
 3. Click on Book Now
-5. Choose any club by clicking the image
-6. Add Item to bag
-7. Side Drawer bag should open
-8. Click checkout button
-9. Should be redirected to Fullpage bag
-10. Click remove 
-11. Side drawer bag will open and item should be removed from bag (if multiple club categories were in bag)
+4. Choose any club by clicking the image
+5. Add Item to bag
+6. Side Drawer bag should open
+7. Click checkout button
+8. Should be redirected to Fullpage bag
+9. Click remove 
+10. Side drawer bag will open and item should be removed from bag (if multiple club categories were in bag)
 11. No booking page should open (if only 1 club category was in bag)
 
 ## 5. Checkout :white_check_mark:
@@ -165,18 +165,18 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 1. Open Browser
 2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
 3. Click on Book Now
-5. Choose any club by clicking the image
-6. Add Item to bag
-7. Side Drawer bag should open
-8. Click Checkout-Button
+4. Choose any club by clicking the image
+5. Add Item to bag
+6. Side Drawer bag should open
+7. Click Checkout-Button
 8. Should be redirected to Fullpage bag
 9. Click Checkout-Button
-9. Should be redirected to checkout page
-10. Form for address details & Order Summary should be displayed
-11. Fill in form & use test credit card (4242 4242 4242 4242)
-12. Submit order
-13. Loading animation should be displayed
-14. Checkout success page should be shown
+10. Should be redirected to checkout page
+11. Form for address details & Order Summary should be displayed
+12. Fill in form & use test credit card (4242 4242 4242 4242)
+13. Submit order
+14. Loading animation should be displayed
+15. Checkout success page should be shown
 
 ### Checkout registered user :white_check_mark:
 
@@ -184,96 +184,62 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
 3. Click Userprofile-icon and login with test@test.com pw: testuser1
 4. Click on Book Now
-6. Choose any club by clicking the image
-7. Add Item to bag
-8. Side Drawer bag should open
-9. Click Checkout-Button
-8. Should be redirected to Fullpage bag
-9. Click Checkout-Button
-10. Should be redirected to checkout page
-10. Form for address details should be prefilled & Order Summary should be displayed
-11. add test credit card (4242 4242 4242 4242)
-12. Submit order
-13. Loading animation should be displayed
-14. Checkout success page should be shown
+5. Choose any club by clicking the image
+6. Add Item to bag
+7. Side Drawer bag should open
+8. Click Checkout-Button
+9. Should be redirected to Fullpage bag
+10. Click Checkout-Button
+11. Should be redirected to checkout page
+12. Form for address details should be prefilled & Order Summary should be displayed
+13. Add test credit card (4242 4242 4242 4242)
+14. Complete order
+15. Loading animation should be displayed
+16. Checkout success page should be shown
 
-## 10. Sign Up :white_check_mark:
+## 6. Register :white_check_mark:
 
-### Sign Up :white_check_mark:
+### Register :white_check_mark:
 1. Open Browser
 2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
 3. Click Userprofile-icon
-4. Choose Sign Ups
+4. Choose Register
 5. Fill out the Form
 6. Check if confirmation mail was received
 7. Confirm email
 8. Login with credentials
 
-## 11. Registered Users: Useraccount :white_check_mark:
+## 7. Registered Users: Useraccount :white_check_mark:
 
 1. Open Browser
 2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
-3. Click Userprofile-icon and login with 
-4. Click on UserAccount-icon
+3. Click Userprofile-icon 
+4. Select Login
 5. Should see Form 
-6. Should see Order History
+6. Enter username and password
+7. Redirected to home page
 
-## Registered Users: Wishlist :white_check_mark:
 
-### Show empty wishlist :white_check_mark:
-1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
-3. Click Userprofile-icon and login with 
-4. Click on Heart-icon
-5. Should show empty wishlist
+## 8. Store/User Management :white_check_mark:
 
-### Add product to wishlist :white_check_mark:
-1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
-3. Login with 
-4. Click on Book Now
-5. Click Kids - T-Shirt or Grown Ups - Sweatshirts
-5. Choose any club by clicking the image
-6. Click Heart below Add to bag-Button
-7. Heart should change from outline to filled
+### Club Management :white_check_mark:
 
-### Show wishlist :white_check_mark:
-1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
-3. Click Userprofile-icon and login with 
-4. Click on Heart-icon
-5. Should show wishlist with one liked item
+#### Create Club :white_check_mark:
+#### Read Club :white_check_mark:
+#### Update Club :white_check_mark:
+#### Delete Club :white_check_mark:
 
-## 12. Store Management :white_check_mark:
+### Profile Management :white_check_mark:
 
-### Product Management :white_check_mark:
+#### Create Profile :white_check_mark:
+#### Read Profile :white_check_mark:
+#### Update Profile :white_check_mark:
+#### Delete Profile :white_check_mark:
 
-#### Create Product :white_check_mark:
-#### Read Product :white_check_mark:
-#### Update Product :white_check_mark:
-#### Delete Product :white_check_mark:
-
-### Order Management :white_check_mark:
-
-#### Create Order :white_check_mark:
-#### Read Order :white_check_mark:
-#### Update Order :white_check_mark:
-#### Delete Order :white_check_mark:
-
-### Blog Management :white_check_mark:
-
-#### Create Post :white_check_mark:
-#### Read Post :white_check_mark:
-#### Update Post :white_check_mark:
-#### Delete Post :white_check_mark:
 
 # User Testing
 
-Besides running through the extensive test cycles documented above the URL from the Heroku deployment was shared with friends and family. The following feedback was collected:
-
-- "Great products"
-- "Beautiful design"
-- "Footer looks a little too full"
+Besides running through the extensive test cycles documented above the URL from the Heroku deployment was shared with friends and family. 
 
 Following Improvements/Features/Bugs were identified:
 * Feature Requests  
@@ -282,26 +248,9 @@ Following Improvements/Features/Bugs were identified:
     * bag on Mobile view hidden. As an idea for a later release the logo and text logo would move to the center. Moving the Burger-Menu to the left side of the screen and adding the bag symbol to the right top corner. :toolbox:
 * Bugs
     * Quantity not shown in Side Drawer bag :white_check_mark:
-    * Buttons on Carrousel not inline with button box :white_check_mark:
     * bag Mobile Fullpage not in view :white_check_mark:
     * Info Toast behind Navbar :white_check_mark:
     * Adding a Product to the bag and using the back button in browser or the implemented backbutton does not refresh the page. Therefor the bag does not signal that the user has something in the bag. Couple of solutions found on Stackoverflow were tested but none could solve the issue. This bug is still pending and should be fixed in the next release. :toolbox:
-
-# Automatic Tests & Continious Integration
-
-A basic set of test using the Django TestCase integration were created to support the testing and development process and gain practical knowledge in this field. Test were written for the following apps:
-
-- About (Views) - 100% Coverage
-- Blog (Models & Views) - 100% Coverage
-- Contact (Forms 100%, Models 100%, Views 54%)
-- Useraccount (Forms 81%, Models 100%, Views 65%)
-- Wishlist (Models 100% & Views 58%)
-
-More test need to be written to reach a 100% test coverage. Furthermore, [Travis CI](https://travis-ci.org/github/p0wen/puffins) used to allow continious integration patterns in combination with Heroku. Travis CI is an open source software for continious integration.
-
-Build Status:
-
-[![Build Status](https://travis-ci.org/p0wen/puffins.svg?branch=master)](https://travis-ci.org/p0wen/puffins)
 
 # Validation Services
 
@@ -316,38 +265,20 @@ All *.js files were checked with the service of [JS Hint](https://jshint.com). B
 All *.py files were checked with the service of [PEP8 Online](http://pep8online.com). The files looked all good and no error was reported.
 ## Responsiveness & Rendering
 The site was created with the mobile first approach in mind. The following devices / device sizes were used for testing the responsiveness:
-* iPhone 11 Pro 
-* iPad 10,2"
-* MacBook Pro 13"
+* iPhone XR
+* Lenovo Thinkpad
+* Lenovo Yoga
 
 ## Browser Compatibility
 The site was tested on the following Browsers:
 * [Apple Safari](https://www.apple.com/safari/) 
 * [Google Chrome](https://www.google.com/chrome/)
-* [Brave Broser](https://brave.com/)
 * [Microsoft Edge](https://www.microsoft.com/edge)
 
 On all browsers full site compatibility was identified based on the test cases.
 
-# Peer-Code-Review
-
-The project was peer-reviewed by students from code institute. Feedback was given on the readme files and the code. 
-
 # Bug-Log from Development
 
 The following bugs were identified and mainly fixed during development:
-1. Updating userprofile even if checkbox is unchecked on Checkout form:  
+1. 
 
-   This issue was identified during the extensive testing protocoll and took a while to solve. The problem was that the used JavaScript call to check if the checkbox is checked or unchecked always returned true. Furthermore, the python code didn't identify the javascript `true`/`false` response as `True` or `False`. Therefore the functions did not process the given information as intended. The following lines were introduce to make the function work as intended:
-   ```
-   stripe_elements.js
-   var saveInfo = $('#id-save-info').is(':checked');
-   ```
-   ```
-   webhook_handler.py
-   if save_info == "true":
-   ```
-2. Webhooks for orders  without the optional streetaddressline2 filled out were failing. Therefore customers who didn't provide a line2 street address were not receiving their order confirmation. The problem laid in the model definition. By allowing `null` to be `true` on `street_address2` the webhooks were processed without problems.
-3. Adding products to a wishlist if no item was added before on a fresh user failed in the beginning. The solution was to use the `get_or_create` method and check if the object was created or already existed.  
-4. Product images were not displayed when using the `{{MEDIA_URL}}` template tag. This was solved by extensivly checking the settings.py and by realizing that the ```django.template.context_processors.media``` was missing in the templates setup. 
-5. Importing fixtures to postgres db led to some troubles. This was solved by making sure the charfields are set correct and that especially on long descriptions it makes sense to use TextField.
