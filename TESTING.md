@@ -266,7 +266,7 @@ All *.py files were checked with the service of [PEP8 Online](http://pep8online.
 ## Responsiveness & Rendering
 The site was created with the mobile first approach in mind. The following devices / device sizes were used for testing the responsiveness:
 * iPhone XR
-* Lenovo Thinkpad
+* HP Envy
 * Lenovo Yoga
 
 ## Browser Compatibility
