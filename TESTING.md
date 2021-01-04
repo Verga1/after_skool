@@ -243,14 +243,14 @@ Besides running through the extensive test cycles documented above the URL from 
 
 Following Improvements/Features/Bugs were identified:
 * Feature Requests  
-  * Feature request: I wish i could increase/decrease quantity within the sidedrawer bag :white_check_mark:
+  * 
 * Improvement
-    * bag on Mobile view hidden. As an idea for a later release the logo and text logo would move to the center. Moving the Burger-Menu to the left side of the screen and adding the bag symbol to the right top corner. :toolbox:
+    * 
 * Bugs
-    * Quantity not shown in Side Drawer bag :white_check_mark:
-    * bag Mobile Fullpage not in view :white_check_mark:
-    * Info Toast behind Navbar :white_check_mark:
-    * Adding a Product to the bag and using the back button in browser or the implemented backbutton does not refresh the page. Therefor the bag does not signal that the user has something in the bag. Couple of solutions found on Stackoverflow were tested but none could solve the issue. This bug is still pending and should be fixed in the next release. :toolbox:
+    * 
+    * 
+    * 
+    * 
 
 # Validation Services
 
