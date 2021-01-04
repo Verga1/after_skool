@@ -148,7 +148,6 @@ The following technologie were used during the development of the project.
 ## Libraries, Tools 
 - [Google Fonts](https://fonts.google.com/)
 - [Gitpod](https://www.gitpod.io/)
-- [Figma](https://www.figma.com/)
 - [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 - [Coverage](https://coverage.readthedocs.io/en/v4.5.x/)
 - [Dj-Database-URL](https://pypi.org/project/dj-database-url/)

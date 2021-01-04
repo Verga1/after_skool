@@ -71,7 +71,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 
 ### Check empty bag :white_check_mark:
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click on bag-Icon
 4. No booking page should open
 5. Placeholder "You have no bookings" should be displayed 
@@ -79,7 +79,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 
 ### Add item to bag :white_check_mark:
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click on Book Now
 4. Choose any club by clicking the image
 5. Add Item to bag
@@ -88,7 +88,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 
 ### Open Fullpage bag :white_check_mark:
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click on Book Now
 4. Choose any club by clicking the image
 5. Add Item to bag
@@ -98,7 +98,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 
 ### Add two items to bag and check Position :white_check_mark:
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click on Book Now
 4. Choose any club by clicking the image
 5. Add Item to bag
@@ -111,7 +111,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 
 ### Checkout from Side Drawer bag :white_check_mark:
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click on Book Now
 4. Choose any club by clicking the image
 5. Add Item to bag
@@ -122,7 +122,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 
 ### Increase Quantity in Fullpage bag :white_check_mark:
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click on Book Now
 4. Choose any club by clicking the image
 5. Add Item to bag
@@ -135,7 +135,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 
 ### Decrease Quantity in Fullpage bag :white_check_mark:
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click on Book Now
 4. Choose any club by clicking the image
 5. Add Item to bag
@@ -148,7 +148,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 
 ### Remove Item(s) in Fullpage bag :white_check_mark:
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click on Book Now
 4. Choose any club by clicking the image
 5. Add Item to bag
@@ -163,7 +163,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 
 ### Checkout AnonymousUser :white_check_mark:
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click on Book Now
 4. Choose any club by clicking the image
 5. Add Item to bag
@@ -181,7 +181,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 ### Checkout registered user :white_check_mark:
 
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click Userprofile-icon and login with test@test.com pw: testuser1
 4. Click on Book Now
 5. Choose any club by clicking the image
@@ -201,7 +201,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 
 ### Register :white_check_mark:
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click Userprofile-icon
 4. Choose Register
 5. Fill out the Form
@@ -212,7 +212,7 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 ## 7. Registered Users: Useraccount :white_check_mark:
 
 1. Open Browser
-2. Open [AfterSkool Page](https://afterskool.herokuapp.com)
+2. Open [AfterSkool Page](https://after-skool.herokuapp.com)
 3. Click Userprofile-icon 
 4. Select Login
 5. Should see Form 
