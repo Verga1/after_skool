@@ -2,7 +2,7 @@
 
 [View the live app here.](https://after-skool.herokuapp.com/)
 
-![home](/static/images/screenshot_1.png)
+![home](/media/home_screenshot.jpg)
 
 
 # UXD Considerations
