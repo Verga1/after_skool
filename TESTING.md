@@ -245,9 +245,10 @@ Following Features/Bugs were identified:
 * Feature Requests  
   * Ability update quantity on side drawer bag.
 * Bugs
-    * Discount was not appearing on order completion page or in admin page for orders. fixed issue by using float and integer within formula. This had knock on issue below:
+    * Discount was not appearing on order completion page or in admin page for orders. Fixed issue by using float and integer within formula. This had knock on issue below:
     * Formula to include discount only for 2 or more clubs not working on order completion page. Issue to still be resolved.
     * Home page hero image not adjusting for mobile use.
+    * Country field in checkout form reverting to original bootstrap format.
 
 # Validation Services
 
