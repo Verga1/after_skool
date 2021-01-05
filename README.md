@@ -1,4 +1,8 @@
+# After Skool
 
+[View the live app here.](https://after-skool.herokuapp.com/)
+
+![home](/static/images/screenshot_1.png)
 
 
 # UXD Considerations

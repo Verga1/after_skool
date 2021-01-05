@@ -241,33 +241,38 @@ Tested if there are any problems in the coding or code styling using pylint<br>
 
 Besides running through the extensive test cycles documented above the URL from the Heroku deployment was shared with friends and family. 
 
-Following Improvements/Features/Bugs were identified:
+Following Features/Bugs were identified:
 * Feature Requests  
-  * 
-* Improvement
-    * 
+  * Ability update quantity on side drawer bag.
 * Bugs
-    * 
-    * 
-    * 
-    * 
+    * Discount was not appearing on order completion page or in admin page for orders. fixed issue by using float and integer within formula. This had knock on issue below:
+    * Formula to include discount only for 2 or more clubs not working on order completion page. Issue to still be resolved.
+    * Home page hero image not adjusting for mobile use.
 
 # Validation Services
 
 ## Validation Tools
 ### [W3C Markup Validation Service](https://validator.w3.org)
-All pages incl. sub-pages were processed through the [W3C Markup Validation Service](https://validator.w3.org). The validation revealed some missing ```alt=""``` statements, stray ```<div>```'s and conventions regarding the use of ```<span>``` in combination with ```<hr>```. The findings were all resolved and no more issues were found by the [W3C Markup Validation Service](https://validator.w3.org).
+All pages incl. sub-pages were processed through the [W3C Markup Validation Service](https://validator.w3.org). Errors relating to python code were ignored. The validation revealed some missing ```alt=""``` statements. The findings were all resolved and no more issues were found by the [W3C Markup Validation Service](https://validator.w3.org).
 ### [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/)
-The whole css file ran through the [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/). After taking care of some minor errors and cleaning up the css 5 Errors are still reported. These Errors were accepted since they mark the use of the javascript injected dynamic ```--vh``` variable in combination with the ```calc()``` operation. Furthermore 18 Warnings were accepted. The 10 of the 18 warnings also relate to the dynmic height view-height variable. And the other 8 warnings inform about same colors on 2 classes ```.allauth-form-inner-content button``` and ```.allauth-form-inner-content input[type="submit"]``` which was also accepted in this case.
-### [JS Hint](https://jshint.com)
-All *.js files were checked with the service of [JS Hint](https://jshint.com). By using this service some bugs like wrong use of ```&&``` in if functions and missing `;` were identified and solved.
-### [PEP8 Online](http://pep8online.com)
-All *.py files were checked with the service of [PEP8 Online](http://pep8online.com). The files looked all good and no error was reported.
+The whole css file ran through the [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/). No errors were found.
+### [JSLint](https://jslint.com)
+All *.js files were checked with the service of [JSLint](https://jslint.com). No issues were found on the clubs, categories and ages JSON files. The stripe_elements js file was requested to use double quotes instead of single quotes. The countryfield js file had same request with some undeclared '$' and unexpected 'this' also.
+### Flake8
+All *.py files were checked using Flake8 in the terminal. There are still several null=True and line too long issues. Lines were not shortened as would require using '/' to split.
 ## Responsiveness & Rendering
-The site was created with the mobile first approach in mind. The following devices / device sizes were used for testing the responsiveness:
+The following devices / device sizes were used for testing the responsiveness:
 * iPhone XR
 * HP Envy
 * Lenovo Yoga
+* Chrome dev tools were used to review responsivness on multiple devices:
+    - Moto G4
+    - Galaxy S5
+    - Pixel 2/2 XL
+    - iPhone 5/5E/6/7/8/8+/X
+    - iPad/Pro
+    - Surface Duo
+    - Galaxy Fold
 
 ## Browser Compatibility
 The site was tested on the following Browsers:
@@ -276,9 +281,4 @@ The site was tested on the following Browsers:
 * [Microsoft Edge](https://www.microsoft.com/edge)
 
 On all browsers full site compatibility was identified based on the test cases.
-
-# Bug-Log from Development
-
-The following bugs were identified and mainly fixed during development:
-1. 
 

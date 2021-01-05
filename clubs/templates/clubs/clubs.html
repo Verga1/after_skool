@@ -56,9 +56,11 @@
                     </div>
                 </div>
                 <div class="row">
+                    <!-- Loop through clubs in database -->
                     {% for club in clubs %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
+                                <!-- Check for club image -->
                                 {% if club.image %}
                                 <a href="{% url 'club_detail' club.id %}">
                                     <img class="card-img-top img-fluid" src="{{ club.image.url }}" alt="{{ club.name }}">
@@ -71,10 +73,12 @@
                                 <div class="card-body pb-0">
                                     <p class="mb-0">{{ club.name }}</p>
                                 </div>
+                                <!-- Card footer -->
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">€{{ club.price }}  | {{ club.term }}</p>
+                                            <!-- Check for and display club category -->
                                             {% if club.category %}
                                             <p class="small mt-1 mb-0">
                                                 <a class="text-muted" href="{% url 'clubs' %}?category={{ club.category.name }}">
@@ -82,7 +86,7 @@
                                                 </a>
                                             </p>
                                             {% endif %}
-
+                                            <!-- Check for and display club rating -->
                                             {% if club.rating %}
                                                 <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ club.rating }} / 5</small>
                                             {% else %}
@@ -99,6 +103,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- If statements for spacing between rows -->
                         {% if forloop.counter|divisibleby:1 %}
                             <div class="col-12 d-sm-none mb-5">
                                 <hr>
