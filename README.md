@@ -121,9 +121,14 @@ Message success/alert/error/warning toasts depending on the function. These can 
 
 The website is created in an easily navigatable manner with sections added in the navbar. When user is not logged in, the login/register page shows. When the user is logged in, My Profile appears and Login link turns to Logout. Superuser has an extra nav called management.<br>
 The buttons and links - the information architecture is placed logically depending on the page <br>
-The website is using a clean, minimalistic approach where a visually pleasing color scheme is used,<br>
+The website is using a clean, minimalistic approach where a visually pleasing color scheme is used<br>
 
 The color scheme followed are:
+
+#9c27b0 - Purple
+#ab47bc - Light Purple
+#000000 - Black
+#ffffff - White
 
 The font used was Roboto.
 
